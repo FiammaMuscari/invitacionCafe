@@ -5,7 +5,7 @@
 }
  body {
 	 margin: 0;
-	 background-color: mistyrose;
+	 background-color: #7f78e9;
 	 position: relative;
 	 overflow: hidden;
 	 margin-left: 6em;
@@ -31,7 +31,7 @@
 	 height: 100%;
 	 background-color: #fff;
 	 border-radius: 5px;
-	 box-shadow: 0 0 30px -5px #fbc0b9;
+	 box-shadow: 0 0 30px -5px #7f78e9;
 }
  .envelope .front {
 	 backface-visibility: hidden;
@@ -74,25 +74,25 @@
 	 font-size: 30px;
 	 line-height: 28px;
 	 letter-spacing: 2px;
-	 color: #ff969f;
+	 color: #7f78e9;
 }
  .envelope .front .mail p:first-child {
 	 font-size: 50px;
 	 line-height: 50px;
-	 color: #ff969f;
+	 color: #7f78e9;
 }
  .envelope .front .mail p:last-child {
 	 font-size: 30px;
 	 padding-top: 10px;
-    color: #bf7b81;
+    color: #7f78e9;
 }
  .envelope .back .letter p:nth-child(2) {
 	 font-size: 30px;
-	 color: #bf7b81;
+	 color: #7f78e9;
 }
  .envelope .back .letter p:nth-child(3) {
 	 font-size: 30px;
-	 color: #bf7b81;
+	 color: #7f78e9;
 	 margin-top: 150px;
 	 float: right;
 }
@@ -109,7 +109,7 @@
 	 content: "";
 	 position: absolute;
 	 background-color: #fff;
-	 box-shadow: 0px 0px 100px #f5c1bc;
+	 box-shadow: 0px 0px 100px #7f78e9;
 }
 
  .envelope .back .top-flip:before, .envelope .back .bottom-flip:before {
@@ -174,7 +174,7 @@
 	 border-radius: 5px;
 	 padding: 0 30px;
 	 box-sizing: border-box;
-	 box-shadow: 0px 1px 100px #fbc0b9;
+	 box-shadow: 0px 1px 100px #7f78e9;
 }
  .envelope .back .letter div {
 	 position: relative;
@@ -298,11 +298,11 @@
  @keyframes letter-out {
 	 0% {
 		 transform: translate3d(0, 0, 0);
-		 box-shadow: 0 0px 30px -5px #fbc0b9;
+		 box-shadow: 0 0px 30px -5px #7f78e9;
 	}
 	 100% {
 		 transform: translate3d(0, -733.33333px, 0);
-		 box-shadow: 0 0px 30px -5px #fbc0b9;
+		 box-shadow: 0 0px 30px -5px #7f78e9;
 	}
 }
  @keyframes send {
